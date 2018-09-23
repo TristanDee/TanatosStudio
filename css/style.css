@@ -1,0 +1,233 @@
+/* VARIABLES */
+/* STYLES */
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+#header {
+  background: linear-gradient(rgba(47, 54, 61, 0.7), rgba(47, 54, 61, 0.7)), url(../img/tanatos_banner.jpg) 0 0 no-repeat fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  color: #fff; }
+
+.navbar-brand {
+  font-weight: 600;
+  color: #fff; }
+
+.navbar-toggler {
+  border: none;
+  outline: none; }
+
+.orange {
+  color: #f7600e; }
+
+.promo h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 60px;
+  color: #fff; }
+
+.promo p {
+  color: #fff; }
+
+#header .btn {
+  width: 210px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  margin-right: 10px; }
+
+#header .btn:hover {
+  background-color: #f7600e; }
+
+.chevron .fa {
+  font-size: 1.5rem;
+  margin-top: 200px; }
+
+#about img {
+  margin-bottom: 10px; }
+
+#about h4 {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #3b434c; }
+
+#about p {
+  font-size: 12px;
+  color: #3b434c;
+  padding: 0 30px; }
+
+#subscription {
+  background: linear-gradient(rgba(47, 54, 61, 0.7), rgba(47, 54, 61, 0.7)), url(../img/laptop-coffee.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%; }
+
+#subscription input {
+  width: 560px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0;
+  padding-left: 20px;
+  margin-right: 15px; }
+
+#subscription .btn {
+  width: 270px;
+  height: 50px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #f7600e;
+  border-radius: 12px;
+  padding-top: 10px; }
+
+#ourWorks h2 {
+  text-transform: uppercase; }
+
+#ourWorks span {
+  color: #f7600e; }
+
+#ourWorks p {
+  color: #3b434c; }
+
+.g1:hover {
+  background-color: #f7600e; }
+
+.gallery-btn {
+  color: #3b434c;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid #3b434c; }
+
+.gallery-btn:hover {
+  background-color: #f7600e;
+  color: #fff; }
+
+#testimonial {
+  background: linear-gradient(rgba(47, 54, 61, 0.7), rgba(47, 54, 61, 0.7)), url(../img/user.jpg) no-repeat fixed;
+  background-size: cover;
+  height: 100%; }
+
+#testimonial p {
+  font-style: italic; }
+
+#testimonial small {
+  font-weight: 600; }
+
+#ourTeam h2 {
+  text-transform: uppercase; }
+
+#ourTeam span {
+  color: #f7600e; }
+
+#ourTeam p {
+  color: #3b434c; }
+
+#ourTeam img {
+  width: 235px;
+  height: 285px;
+  filter: grayscale(100%); }
+
+#ourTeam img:hover {
+  width: 262px;
+  height: 315px;
+  filter: none;
+  border-bottom: 5px solid #f7600e;
+  transition: 0.5s; }
+
+.name {
+  text-transform: uppercase;
+  padding-top: 5px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 0; }
+
+#ourTeam p.bio {
+  font-size: 13px; }
+
+.team-details ul {
+  list-style: none; }
+  .team-details ul li {
+    display: inline-block;
+    background-color: black;
+    margin: 10px;
+    border-radius: 50%; }
+  .team-details ul a {
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    height: 25px;
+    width: 25px; }
+
+.team-details:hover .fa-facebook {
+  color: #205b9f;
+  text-decoration: none; }
+
+.team-details:hover .fa-twitter {
+  color: #00ace3;
+  text-decoration: none; }
+
+.team-details:hover .fa-google-plus {
+  color: #ff3921;
+  text-decoration: none; }
+
+#message {
+  background: linear-gradient(rgba(47, 54, 61, 0.7), rgba(47, 54, 61, 0.7)), url(../img/street.jpg) no-repeat fixed;
+  background-size: cover;
+  height: 100%; }
+
+#message h2 {
+  text-transform: uppercase;
+  color: #fff; }
+
+#message span {
+  color: #f7600e; }
+
+#message p {
+  color: #fff; }
+
+.hire {
+  background-color: #f7600e;
+  color: #fff;
+  text-transform: uppercase; }
+
+footer {
+  background-color: #3b434c; }
+  footer p.copyright {
+    text-transform: uppercase;
+    float: left; }
+  footer p.credit {
+    text-transform: uppercase;
+    float: right;
+    text-align: right; }
+    footer p.credit span {
+      color: red;
+      font-weight: 600; }
+
+/* MEDIA QUERIES */
+@media (max-width: 992px) {
+  #ourWorks img {
+    width: 250px;
+    height: 250px; } }
+
+@media (max-width: 768px) {
+  #subscription input {
+    width: 400px; }
+  #subscription .btn {
+    width: 200px; } }
+
+@media (max-width: 320px) {
+  #subscription input {
+    width: 300px; }
+  #subscription .btn {
+    width: 100px; } }
+
+/* END */
